@@ -1,0 +1,3 @@
+# common unwanted file types
+.DS_Store
+*.zip
