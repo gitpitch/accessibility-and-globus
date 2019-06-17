@@ -1,28 +1,62 @@
-.spaced li {
-  margin:0 0 10px 0;
-}
+/* General */
 
+.reveal {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.slide-background.present {
+  background-color: #2F4986;
+}
 .shadow {
   box-shadow:0 14px 20px 0 rgba(0,0,0,0.2),0 10px 24px 0 rgba(0,0,0,0.19) !important;
 }
+.reveal a {
+  text-decoration: underline;
+}
+.reveal a:focus,
+.reveal a:hover {
+  color: white;
+}
 
+/* Typography */
 .headline h2 {
   color: white;
   letter-spacing: 0.05em;
   font-variant: small-caps;
 }
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: normal;
+}
+.reveal h1 {
+  font-size: 3em;
+}
+.reveal h2 {
+  font-size: 1.75em;
+}
+.reveal h3 {
+  font-size: 1.25em;
+}
+.reveal .highlight {
+  color: #e2e27a;
+}
+.reveal .small {
+  font-size: .5em;
+}
 
+/* Components */
 .reveal section img {
   background: none;
   border: none;
   box-shadow: none;
 }
-
-.reveal a {
-  color: white;
-}
-
-.reveal a:hover {
-  color: white;
-  font-weight: bold;
+.reveal #boxed-text-box {
+  background-color: #333;
+  background-color: rgba(10,10,10,.25);
+  border: solid 3px #222;
+  border-color: rgba(10,10,10,.5);
+  border-radius: 1rem;
+  margin: 3rem;
 }
