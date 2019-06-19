@@ -183,6 +183,8 @@ Note:
 Accessibility Insights for Web
 @snapend
 
+---
+
 - automated testing
 - manual testing assistance
 - reports

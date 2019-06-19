@@ -18,7 +18,7 @@ theme-override: assets/css/PITCHME.css
 # https://gitpitch.com/docs/settings/logo
 #
 logo : assets/img/logo_globus.svg
-logo-postion : top-right
+logo-position : top-right
 
 #
 # Layout Setting
